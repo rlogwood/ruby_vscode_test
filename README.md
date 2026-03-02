@@ -1,3 +1,16 @@
+# vscode on ruby RBS and Sorbet 
+
+As a RubyMine user, I wanted to explore early support for inline RBS comment support in vscode.
+
+The 2nd iteration has this working and requires using Sorbet. RubyMine doesn't support inline RBS yet.
+
+But ruby/rbs is already getting the improvements, thanks @sautaro! 
+- [inlione.md]]https://github.com/ruby/rbs/blob/master/docs/inline.md)
+- TODO: try out master branch of https://github.com/ruby/rbs
+
+
+
+
 # Iteration 1 - use rbs and steep
 
 - `Gemfile`
@@ -76,6 +89,13 @@ bundle exec srb tc
 - `#: inline comments for type annotations`
 - `.rubocop.yml` with AllowRBSInlineAnnotation: true
 
+
+### `.rubocopy.yml` 
+- needed to prevent reformating of `#:` comments
+```yaml
+Layout/LeadingCommentSpace:
+  AllowRBSInlineAnnotation: true
+```
 
 
 ### `sorbet/config`
