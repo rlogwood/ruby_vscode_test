@@ -6,7 +6,8 @@ The 2nd iteration has this working and requires using Sorbet. RubyMine doesn't s
 
 But ruby/rbs is already getting the improvements, thanks @sautaro! 
 - [inline.md](https://github.com/ruby/rbs/blob/master/docs/inline.md)
-- TODO: try out master branch of https://github.com/ruby/rbs
+- TODO: try out master branch of https://github.com/ruby/rbs and try to get inline RBS working without Sorbet LSP
+  
 
 
 
