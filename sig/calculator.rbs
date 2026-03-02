@@ -1,3 +1,0 @@
-class Calculator
-  def add: (Integer a, Integer b) -> Integer
-end
