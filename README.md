@@ -5,7 +5,7 @@ As a RubyMine user, I wanted to explore early support for inline RBS comment sup
 The 2nd iteration has this working and requires using Sorbet. RubyMine doesn't support inline RBS yet.
 
 But ruby/rbs is already getting the improvements, thanks @sautaro! 
-- [inlione.md]]https://github.com/ruby/rbs/blob/master/docs/inline.md)
+- [inline.md](https://github.com/ruby/rbs/blob/master/docs/inline.md)
 - TODO: try out master branch of https://github.com/ruby/rbs
 
 
