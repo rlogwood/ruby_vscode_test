@@ -1,0 +1,3 @@
+class Calculator
+  def add: (Integer, Integer) -> Integer
+end

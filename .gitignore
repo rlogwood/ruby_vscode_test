@@ -1,5 +1,5 @@
-bin/
-sorbet/rbi
-sorbet/tapioca
+vscode_test/bin/
+vscode_test/sorbet/rbi
+vscode_test/sorbet/tapioca
 *~
 
